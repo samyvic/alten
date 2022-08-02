@@ -1,5 +1,5 @@
 import mongoose from 'mongoose';
-
+import validator from 'validator';
 
 const messageSchema = new mongoose.Schema({
     name:{
@@ -28,6 +28,10 @@ const messageSchema = new mongoose.Schema({
     date:{
         type: Date,
         default: Date.now()
+    },
+    read:{
+        type:Boolean,
+        default: false
     }
 });
 
