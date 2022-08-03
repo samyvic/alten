@@ -325,17 +325,18 @@ p{
   margin: auto;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  grid-gap: 12px;
+  grid-gap: 16px;
   justify-content: center;
 }
 .about .right-content .grid-container .box-4{
   display: flex;
   flex-flow: column;
-  border: 4px solid #0f0f10;
+  border: 4px solid #fff;
   padding: 20px 10px;
   justify-content: center;
   align-items: center;
   aspect-ratio: 1; /* make squares */
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 .about h1{
   color: #0f0f10;
@@ -367,11 +368,12 @@ p{
   letter-spacing: 1px;
 }
 .about i{
+  color: #222;
   font-size: 36px;
   line-height: 1.5;
 }
 .about h4{
-
+  color: #666;
   font-family: 'Roboto Condensed', sans-serif;
   text-transform: uppercase;
   line-height: 2;
